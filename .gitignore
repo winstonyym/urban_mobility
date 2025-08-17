@@ -1,0 +1,17 @@
+# Ignore compiled output
+*.o
+*.exe
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore logs and temporary files
+logs/
+tmp/
+data/
+
+.env
