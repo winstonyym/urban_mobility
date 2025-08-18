@@ -26,6 +26,14 @@ setup_conda_env() {
     # Install packages
     conda install mamba -c conda-forge -y
     mamba install geopandas -y
+
+
+    pip install ipykernel 
+    pip install openpyxl
+    pip install h3
+    pip install contextily
+    pip install rasterio==1.4.0
+    pip install seaborn
 }
 
 # Detect the operating system
